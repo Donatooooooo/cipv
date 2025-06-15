@@ -99,7 +99,7 @@ def save_conversations(output, conversations):
 
 if __name__ == "__main__":
     input = "./data/raw/explaination_toxic_conversation.csv"
-    output = "./data/processed/conversations.json"
+    output = "./data/processed/toxic_conversations.json"
 
     dataset = get_dataset(input)
     conversations = parser(dataset)
