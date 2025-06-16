@@ -7,6 +7,7 @@ import nltk, json, random, spacy
 # nltk.download('punkt')
 # nltk.download('punkt_tab')
 STOP_WORDS = set(stopwords.words('italian'))
+nlp = spacy.load("it_core_news_sm")
 
 
 def text_processing(text, lematization = False):
@@ -18,7 +19,6 @@ def text_processing(text, lematization = False):
                         and w not in STOP_WORDS and len(w) > 2]
     
     if lematization:
-        nlp = spacy.load("it_core_news_sm")
         doc = nlp(" ".join(words))
         words = [token.lemma_ for token in doc if token.lemma_ not in STOP_WORDS]
     
@@ -26,25 +26,26 @@ def text_processing(text, lematization = False):
     return text
 
 
-def clean_conversation(all_data): 
+def clean_conversation(all_data, lematization): 
     pairs = []
     for conversation in all_data:
         full_text = " ".join(str(turn["text"]) for turn in conversation["dialogue"])
-        cleaned_text = text_processing(full_text)
+        cleaned_text = text_processing(full_text, lematization)
         pairs.append((cleaned_text, conversation["person_couple"]))
     return pairs
 
 
-def conversation_loader():
-    with open("./data/processed/toxic_conversations.json", "r", encoding="latin-1") as f:
+def conversation_loader(lematization = False):
+    with open("./data/processed/toxic_conversations.json", "r", encoding="utf-8") as f:
         toxic_data = json.load(f)
         
-    pairs = clean_conversation(toxic_data)
+    pairs = clean_conversation(toxic_data, lematization)
     
-    with open("./data/processed/safe_conversations.json", "r", encoding="latin-1") as f:
+    with open("./data/processed/safe_conversations.json", "r", encoding="utf-8") as f:
         safe_data = json.load(f)
         
-    pairs += clean_conversation(safe_data) 
+    pairs += clean_conversation(safe_data, lematization)
+    dataset = toxic_data + safe_data
 
     random.shuffle(pairs)
     texts, labels = [], []
@@ -53,4 +54,4 @@ def conversation_loader():
         labels.append(item[1])
     
     print(f"- Loaded {len(texts)} conversations")
-    return texts, labels
+    return dataset, texts, labels
