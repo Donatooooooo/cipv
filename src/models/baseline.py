@@ -1,10 +1,15 @@
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import cross_val_predict
 from sklearn.model_selection import cross_validate
+from sklearn.metrics import confusion_matrix
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
-import os, json, joblib
+import os, json, numpy as np, joblib
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 class Baseline:
     def __init__(self):
@@ -96,7 +101,10 @@ class Baseline:
         print(json.dumps(metrics, indent=4))
         with open('./reports/baseline/baseline_metrics.json', 'w') as f:
             json.dump(metrics, f, indent=4)
-            
+        
+        y_pred = cross_val_predict(self.pipeline, texts, labels, cv=kfold, n_jobs=-1)
+        cm = confusion_matrix(labels, y_pred, labels=sorted(set(labels)))
+        plot(cm, sorted(set(labels)))
 
         self.pipeline.fit(texts, labels)
         self.model = self.pipeline.named_steps["model"]
@@ -114,3 +122,21 @@ class Baseline:
             proba = self.pipeline.predict_proba(texts)[0]
             proba = max(proba)
         return label, proba
+
+
+def plot(cm, class_labels):
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+
+    plt.xticks(ticks=np.arange(len(class_labels)) + 0.5,
+               labels=class_labels, rotation=45, ha='right')
+    plt.yticks(ticks=np.arange(len(class_labels)) + 0.5,
+               labels=class_labels, rotation=0, va='center')
+
+    plt.xlabel('Predicted Class')
+    plt.ylabel('True Class')
+    plt.title('Confusion Matrix')
+
+    plt.tight_layout()
+    plt.savefig('./reports/figures/Baseline_CM.png')
+    plt.show()
