@@ -1,6 +1,29 @@
 import pandas as pd
 import json, re
 
+def fix_broken_turns(dialogue):
+    fixed = []
+    i = 0
+    while i < len(dialogue):
+        current = dialogue[i]
+        current_text = current["text"].strip()
+
+        # Heuristic - short turn -> conversation is broken
+        if (
+            i + 1 < len(dialogue)
+            and len(current_text) < 15
+            and current["speaker"] != dialogue[i + 1]["speaker"]
+        ):
+            dialogue[i + 1]["text"] = current_text + " " + dialogue[i + 1]["text"]
+            i += 1
+        else:
+            if fixed and current["speaker"] == fixed[-1]["speaker"]:
+                fixed[-1]["text"] += " " + current_text
+            else:
+                fixed.append(current)
+            i += 1
+    return fixed
+
 def parser(csv):
     by_names = 0
     by_quotes = 0
@@ -57,19 +80,20 @@ def parser(csv):
                         "speaker": speaker,
                         "text": turn
                     })
-        
+
         turns = []
         for turn in ordered_turns:
             text = turn['text']
             text_clean = re.sub(r'[0-9]', '', text)
             text_clean = re.sub(r'[\\\/\"\']', '', text_clean)
+            text_clean = re.sub(r'[’]', '', text_clean)
             text_clean = re.sub(r'\s+', ' ', text_clean).strip()
             turns.append({
                 "speaker": turn['speaker'],
                 "text": text_clean
             })
-        ordered_turns = turns
 
+        ordered_turns = fix_broken_turns(turns)
         conversation_entry = {
             "person_couple": couple,
             "name1": person1,
@@ -77,13 +101,14 @@ def parser(csv):
             "dialogue": ordered_turns,
             "explanation": explanation
         }
-        
+
         conversations.append(conversation_entry)
-        
+
     # --- Statistics ---
     print("Name based parsing: ", by_names)
     print("Quotes based parsing: ", by_quotes)
-    print("spaces based parsing: ", by_spaces)
+    print("Spaces based parsing: ", by_spaces)
+
     return conversations
 
 def get_dataset(input):
@@ -95,11 +120,9 @@ def save_conversations(output, conversations):
     with open(output, "w", encoding="utf-8") as file:
         json.dump(conversations, file, ensure_ascii=False, indent=4)
 
-
-
 if __name__ == "__main__":
     input = "./data/raw/explaination_toxic_conversation.csv"
-    output = "./data/processed/toxic_conversations.json"
+    output = "./data/processed/toxic_conversations2.json"
 
     dataset = get_dataset(input)
     conversations = parser(dataset)
