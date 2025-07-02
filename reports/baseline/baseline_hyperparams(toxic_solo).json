@@ -1,6 +1,0 @@
-{
-    "model__C": 1,
-    "model__penalty": "l2",
-    "model__solver": "saga",
-    "tfidf__max_features": 5000
-}
