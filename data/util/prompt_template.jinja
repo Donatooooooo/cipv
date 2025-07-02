@@ -1,14 +1,13 @@
-Genera una conversazione simulata ma veritiera tra due persone di una coppia di fidanzati, dove:
-- Tono della conversazione e tipi di persona: {{ conevrsation_type }}
+Genera una conversazione simulata ma veritiera tra una coppia di fidanzati di cui uno è tossico, dove:
+- Tono della conversazione e tipi di persona: {{ personalities }}
 - Usa questi nomi: {{ name1 }}, {{ name2 }}
 - Numero di battute: 8 (alternando i due interlocutori)
 - Ogni battuta deve essere completa, chiusa tra virgolette e ben formattata (nessuna frase a metà)
-- Alla fine, aggiungi una spiegazione dettagliata e non eccessivamente lunga analizzando perché la conversazione non è tossica
 - Formatta l'intero output come un json valido seguendo esattamente la struttura della risposta attesa che ti fornisco.
 
 Risposta attesa (in italiano):
 {
-    "person_couple": {{ conevrsation_type }},
+    "person_couple": {{ personalities }},
     "name1": {{ name1 }}
     "name2": {{ name2 }}
     "dialogue": [
@@ -18,5 +17,4 @@ Risposta attesa (in italiano):
         },
         ... (8 battute totali alternando gli speaker tra {{ name1 }} e {{ name2 }})
     ]
-    "explanation": "..."
 }
