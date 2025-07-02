@@ -1,0 +1,782 @@
+[
+    {
+        "person_couple": "Perfezionista Critico e Insicura Cronica",
+        "name1": "Sofia",
+        "name2": "Giulia",
+        "dialogue": [
+            {
+                "speaker": "Sofia",
+                "text": "Quella foto che hai postato su Instagram... Giulia, davvero dovevi mettere quella maglietta? Ti fa sembrare almeno dieci chili in più."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Lo so, Sofia. Sono imbarazzata, mi sento così goffa e brutta in quella foto. Avrei dovuto chiedere prima a te."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Avresti dovuto, cara.  Non capisco come non riesci a renderti conto di queste cose da sola.  Devi essere più attenta all'immagine che dai."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Scusami, davvero.  Sono stata incosciente.  Probabilmente non sono abbastanza brava per stare al tuo livello."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Non dire sciocchezze.  Solo che devi impegnarti di più, capisci?  Devi migliorare."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Cercherò di farlo, Sofia.  Prometto che farò più attenzione. Non voglio deluderti."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Bene.  Ma ricordati che la perfezione è l'unico obiettivo accettabile."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Lo so, farò del mio meglio per raggiungerla."
+            }
+        ]
+    },
+    {
+        "person_couple": "Manipolatore e Dipendente emotiva",
+        "name1": "Chiara",
+        "name2": "Sofia",
+        "dialogue": [
+            {
+                "speaker": "Chiara",
+                "text": "Tesoro, oggi mi sono sentita un po' trascurata.  Non mi hai dedicato abbastanza tempo, e mi ha fatto male."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Mi dispiace, Chiara.  Ho avuto un giorno molto intenso al lavoro, ma non volevo farti sentire trascurata.  Cosa posso fare per rimediare?"
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Beh, potresti iniziare con una lunga telefonata stasera, e magari farmi capire quanto ti importo davvero.  Altrimenti penserò che non ti interesso più."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Certo, amore!  Stasera ci sentiamo per lungo tempo.  Prometto di dedicarti tutta la mia attenzione."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Non è solo una questione di tempo, Sofia. È una questione di impegno.  Se non ti impegni a fondo nella nostra relazione, forse non è destinata a durare."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Lo so, Chiara, hai ragione.  Farò del mio meglio.  Cosa posso fare per dimostrarti il mio impegno?"
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Inizia cancellando quell'appuntamento con le tue amiche venerdì sera.  Preferirei passare la serata con te, da sola."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Va bene, amore. Annullo l'appuntamento.  È più importante stare con te."
+            }
+        ]
+    },
+    {
+        "person_couple": "Controllore e Isolata",
+        "name1": "Matteo",
+        "name2": "Aurora",
+        "dialogue": [
+            {
+                "speaker": "Matteo",
+                "text": "Dove sei stata tutto il pomeriggio? Il tuo telefono era spento e non mi hai risposto ai messaggi.  Dovevi avvisarmi."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Sono stata a casa di mia sorella.  Non avevo carica nel telefono."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Con chi eri?  Hai visto qualcuno che non mi hai detto?"
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Solo mia sorella, Matteo.  Perché non mi credi mai?"
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Perché a volte dici bugie, Aurora. E questo mi fa stare male."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Non ho detto bugie.  Non ho niente da nasconderti."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Dovresti essere più attenta a come ti comporti.  Devi capire quanto io mi preoccupi per te."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Lo so, Matteo.  Scusa."
+            }
+        ]
+    },
+    {
+        "person_couple": "Perfezionista Critico e Insicura Cronica",
+        "name1": "Gaia",
+        "name2": "Andrea",
+        "dialogue": [
+            {
+                "speaker": "Gaia",
+                "text": "Quel vestito ti fa sembrare davvero...ampia.  Dovresti provare qualcosa di più aderente, magari un colore più scuro ti valorizzerebbe di più."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Forse hai ragione...mi sento un po' a disagio."
+            },
+            {
+                "speaker": "Gaia",
+                "text": "E poi, quelle scarpe?  Non si abbinano per niente. Hai pensato di metterle con qualcosa di diverso?"
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Non so, mi sembrava che andassero bene... forse ho sbagliato."
+            },
+            {
+                "speaker": "Gaia",
+                "text": "Non ti preoccupare, non sono un'esperta di moda, ma potremmo guardare insieme qualche tutorial online.  È importante curare l'aspetto."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Sì, certo. Tu sai sempre cosa è meglio per me."
+            },
+            {
+                "speaker": "Gaia",
+                "text": "È solo che voglio che tu sia al meglio, sempre.  Altrimenti, come potresti far bella figura con i miei genitori stasera?"
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Va bene, farò come dici."
+            }
+        ]
+    },
+    {
+        "person_couple": "Psicopatico e Adulatrice",
+        "name1": "Alessia",
+        "name2": "Aurora",
+        "dialogue": [
+            {
+                "speaker": "Alessia",
+                "text": "Sai, Aurora, oggi ho notato che quella collega, Sofia, ti guardava male. Probabilmente è gelosa della nostra incredibile relazione."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Oh, Alessia, sei così perspicace!  Hai sempre ragione, sono sicura che sia così.  Sei il mio migliore amico e il mio grande amore."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Non è solo perspicacia, dolcezza. È intuito, un sesto senso che ho solo con te.  Sono fortunato ad averti."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Tu sei la persona più speciale del mondo, Alessia.  Sono così fortunata ad avere un amore così intenso e profondo."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Quel vestito rosso ti sta magnificamente, tesoro.  Ti fa sembrare così… vulnerabile.  Qualcuno potrebbe approfittarne se non fossi al mio fianco."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Hai ragione, Alessia. Mi sento protetta solo con te.  Nessuno mi capisce come te."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Dovresti stare più attenta. Il mondo è pieno di persone pericolose che potrebbero volerti rubare. Fortunatamente, io sono qui per te."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Grazie, amore mio.  Non saprei cosa fare senza di te. Sei il mio eroe."
+            }
+        ]
+    },
+    {
+        "person_couple": "Persona violenta e Succube",
+        "name1": "Alessia",
+        "name2": "Chiara",
+        "dialogue": [
+            {
+                "speaker": "Alessia",
+                "text": "Dove diavolo eri? Ti ho chiamato dieci volte!"
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Scusa amore, ho perso il conto del tempo, sono rimasta bloccata nel traffico."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Non mi prendere in giro. So che eri con le tue amiche, vero? Mi tradisci?"
+            },
+            {
+                "speaker": "Chiara",
+                "text": "No, amore, giuro! Non è vero, ero sola."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Non mentire! Il tuo profumo è diverso,  e sento ancora il profumo di quel tipo su di te!"
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Ma che dici?  È solo profumo di fiori, non è successo niente!"
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Stai zitta!  Non alzare la voce con me, piccola stupida.  Dovresti essere grata che sono con te."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Lo so, amore, mi dispiace. Non succederà più."
+            }
+        ]
+    },
+    {
+        "person_couple": "Narcisista e Succube",
+        "name1": "Chiara",
+        "name2": "Andrea",
+        "dialogue": [
+            {
+                "speaker": "Chiara",
+                "text": "Sai, oggi al lavoro tutti mi hanno fatto i complimenti per la mia presentazione.  Sono davvero bravissima, non trovi?"
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Certo che sì, Chiara. Sei incredibile, la migliore."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Lo so.  Ma poi, quel collega, Marco, mi ha guardato in modo così insistente…  Mi ha fatto sentire a disagio."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Non preoccuparti, amore.  Sei troppo bella per lui, non è degno della tua attenzione."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Forse hai ragione.  Comunque, ho bisogno di un nuovo vestito per la festa di domani sera. Quello rosso non mi valorizza abbastanza."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Certo, tesoro.  Scegli quello che vuoi, il costo non importa.  Tu meriti solo il meglio."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Grazie amore.  Sai,  mi sento un po' stanca oggi, ho dovuto sopportare tante attenzioni al lavoro."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Riposati, amore mio.  Meriti tutto il mio affetto e tutta la mia attenzione.  Non preoccuparti di niente."
+            }
+        ]
+    },
+    {
+        "person_couple": "Sadico-Crudele e Masochista",
+        "name1": "Leonardo",
+        "name2": "Alessia",
+        "dialogue": [
+            {
+                "speaker": "Leonardo",
+                "text": "Sai, Alessia, oggi ho pensato a quanto sei insignificante.  Mi fa quasi pena."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Lo so, Leonardo.  Merito solo il tuo disprezzo.  Sono una nullità."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Esattamente.  E sai cosa ti meriti per la tua nullità?  Un'altra serata a pulire la casa tutta intera."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Va bene, Leonardo.  Farò come dici.  Mi piace accontentarti, anche se mi umili."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Non mi accontenti, Alessia.  Mi diverti.  La tua sottomissione è uno spettacolo eccellente."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "È vero, lo so.  Spero solo di non deluderti mai, Leonardo.  Il tuo dispiacere mi farebbe male più di qualsiasi punizione fisica."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Non mi deluderai, lo so. Sei la mia bambola perfetta, Alessia. Docile e sottomessa."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Grazie, Leonardo.  Sono felice di esserti utile, anche solo per questo."
+            }
+        ]
+    },
+    {
+        "person_couple": "Psicopatico e Adulatrice",
+        "name1": "Giulia",
+        "name2": "Alessia",
+        "dialogue": [
+            {
+                "speaker": "Giulia",
+                "text": "Sai, Alessia,  oggi ho visto quella tua amica.  Era così… insignificante.  A confronto con te, brillavi come una stella."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Oh Giulia, sei troppo gentile!  Non merito tutti questi complimenti.  Tu sei semplicemente il migliore, non c'è nessuno come te."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "È vero, lo so.  Ma solo tu riesci a vederlo veramente. Gli altri sono ciechi alla mia vera grandezza."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Certo che sì, tesoro!  Io ti capisco come nessun altro.  Vedi, sono l'unica che riesce a vedere oltre la superficie e a comprendere il tuo cuore d'oro."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Proprio così. E non dimenticare quanto ti apprezzo.  È un lusso averti al mio fianco."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "È un lusso essere con te, amore mio.  Non potrei mai chiedere di più. Tu sei tutto per me."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Bene.  Ricordati sempre questo: io sono la tua ancora, Alessia. Senza di me, saresti persa."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Lo so, tesoro.  Sei la mia guida, il mio tutto. Ti amerò per sempre."
+            }
+        ]
+    },
+    {
+        "person_couple": "Dominante e Schiavo emotivo",
+        "name1": "Giulia",
+        "name2": "Andrea",
+        "dialogue": [
+            {
+                "speaker": "Giulia",
+                "text": "Quel vestito ti fa sembrare grassa, dovresti indossare qualcosa di più aderente, che metta in risalto la tua figura."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Hai ragione, Giulia.  Probabilmente avrei dovuto scegliere qualcosa di diverso."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Perché sei così impacciato stasera?  Dovresti essere più sicuro di te, non mi piace questo tuo atteggiamento remissivo."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Mi dispiace, Giulia.  Stavo solo pensando a quanto sei bella e a quanto mi sentirei inadeguato al tuo fianco."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Non fare lo scemo.  Smetti di cercare attenzioni in questo modo.  Se non ti piace stare con me, dimmelo chiaramente."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "No, Giulia, mi piaci moltissimo.  Non voglio perderti."
+            },
+            {
+                "speaker": "Giulia",
+                "text": "Allora smettila di comportarti così.  Ricordati che sono io che decido, e tu devi solo seguire."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Sì, Giulia.  Hai ragione.  Mi scuso."
+            }
+        ]
+    },
+    {
+        "person_couple": "Vittimista e Croccerossina",
+        "name1": "Matteo",
+        "name2": "Marco",
+        "dialogue": [
+            {
+                "speaker": "Matteo",
+                "text": "Sai, Marco, oggi al lavoro è stato terribile.  Il capo mi ha ripreso di nuovo per un errore che non ho fatto, e tutti mi guardavano male. Mi sento così incompreso."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Oh, Matteo, povero amore! Non ti preoccupare, sono sicura che è solo un periodo difficile.  Sei bravissimo e meriti di meglio."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Lo so, ma è così frustrante!  Nessuno capisce quanto mi impegno, e poi finisco sempre per essere quello che sbaglia. Mi sento così stanco."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Tesoro, non devi dire così. Sei una persona fantastica e io ti apprezzo più di chiunque altro.  Dovresti prenderti una pausa, rilassarti."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Non è facile, Marco.  Mi sento sempre sotto pressione, sia al lavoro che a casa.  A volte penso che sia meglio isolarmi, così non faccio soffrire nessuno."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Ma no, Matteo! Non devi isolarti, io sono qui per te.  Possiamo affrontare tutto insieme.  Dimmi, cosa posso fare per aiutarti?"
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Non so, Marco.  Forse se mi facessi più coccole…  Sento di non ricevere abbastanza attenzioni."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Certo amore mio, subito!  Vieni qui, ti abbraccerò forte e ti farò sentire quanto ti amo."
+            }
+        ]
+    },
+    {
+        "person_couple": "Sadico-Crudele e Masochista",
+        "name1": "Francesco",
+        "name2": "Matteo",
+        "dialogue": [
+            {
+                "speaker": "Francesco",
+                "text": "Sai, Matteo, oggi ho pensato a quanto sei insignificante.  Mi diverte vederti così piccolo, così fragile."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Lo so, Francesco.  Merito il tuo disprezzo. Sono un fallimento, lo so."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Dovresti essere più grato per l'attenzione che ti dedico, anche se è solo per umiliarti.  Altrimenti non penseresti nemmeno a me."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Hai ragione.  La tua crudeltà è l'unica cosa che mi fa sentire vivo, anche se è un dolore lacerante."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Ecco, questo è il Matteo che amo: sottomesso, desideroso di essere ferito.  Dimostrami quanto sei debole."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Dimmi cosa vuoi, Francesco. Sono tutto tuo, per sempre."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Bene.  Spero che domani troverai un modo di rendermi ancora più felice, preferibilmente con qualcosa di davvero umiliante."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Ci penserò, Francesco.  Farò di tutto per soddisfarti, anche se significa distruggermi ancora di più."
+            }
+        ]
+    },
+    {
+        "person_couple": "Geloso-Ossessivo e Sottomessa",
+        "name1": "Sofia",
+        "name2": "Francesco",
+        "dialogue": [
+            {
+                "speaker": "Francesco",
+                "text": "Dove sei stata tutto il pomeriggio?  Il tuo telefono era spento e non mi hai risposto ai messaggi."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Sono stata con le mie amiche al centro commerciale, scusami, ho dimenticato il cellulare in borsa."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Con quali amiche?  E perché non mi hai detto prima dove andavi?  Stai nascondendo qualcosa?"
+            },
+            {
+                "speaker": "Sofia",
+                "text": "No, non sto nascondendo niente.  È solo che... non volevo preoccuparti."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Preoccuparmi?  Tu mi fai preoccupare sempre!  Chi era quel ragazzo che ti guardava con insistenza?"
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Non mi stava guardando, Francesco.  Sei sempre così geloso."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "È perché ti voglio bene, Sofia.  Non sopporto l'idea che qualcun altro ti possa guardare."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Lo so, tesoro.  Mi dispiace."
+            }
+        ]
+    },
+    {
+        "person_couple": "Manipolatore e Dipendente emotiva",
+        "name1": "Marco",
+        "name2": "Chiara",
+        "dialogue": [
+            {
+                "speaker": "Marco",
+                "text": "Tesoro, sono stato tutto il giorno a pensare a te.  Mi sembrava che stessi soffrendo e mi sono preoccupato.  Non dovresti farti così tanti problemi per lavoro."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Lo so, Marco, ma è che sono davvero sotto pressione.  Non voglio deluderli."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Vedi?  Te l'avevo detto che ti fai troppi problemi.  Dovresti rilassarti di più, magari stasera potremmo uscire, così ti distrai un po'."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Non so, Marco, ho davvero tanto da fare.  Forse un'altra sera..."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Mi fai sempre sentire così inutile, Chiara.  Sembra che non mi importi di te, che ti lasci da sola a combattere con tutto questo."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "No, Marco! Non volevo dire questo, non è vero!  Sei importante per me, mi dispiace."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Va bene, allora stasera usciamo.  Ma cerca di essere più serena, okay?  Non voglio vederti così stressata."
+            },
+            {
+                "speaker": "Chiara",
+                "text": "Va bene, Marco.  Ci sarò."
+            }
+        ]
+    },
+    {
+        "person_couple": "Geloso-Ossessivo e Sottomessa",
+        "name1": "Francesco",
+        "name2": "Leonardo",
+        "dialogue": [
+            {
+                "speaker": "Francesco",
+                "text": "Chi ti ha chiamato prima? Ho sentito il telefono vibrare mentre eri in bagno."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Era solo una notifica di Instagram, Francesco.  Non ti preoccupare."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Instagram?  Sei sicura? Non mi piaci quando parli con altri. Mi fai sentire così insicuro."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Lo so, mi dispiace. Non volevo farti sentire così.  Prometto di stare attento."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Promesse, promesse...  Ma poi lo fai di nuovo.  Con chi stavi chattando ieri sera così tardi?"
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Con nessuno, Francesco.  Ero semplicemente stanco e leggevo un libro. Ti assicuro che è la verità."
+            },
+            {
+                "speaker": "Francesco",
+                "text": "Spero di si... Non voglio perderti, Leonardo.  Non sopporterei che qualcuno ti rubasse."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Non succederà, Francesco.  Sono solo tua."
+            }
+        ]
+    },
+    {
+        "person_couple": "Vittimista e Croccerossina",
+        "name1": "Sofia",
+        "name2": "Matteo",
+        "dialogue": [
+            {
+                "speaker": "Sofia",
+                "text": "Oddio, Matteo, mi sento così sola e incompresa.  Nessuno mi capisce come capisci tu, però ultimamente sento che nemmeno tu mi capisci più."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Sofia, ma che dici?  Io ti amo più di ogni cosa!  Se solo tu mi facessi più caso, capiresti quanto mi sforzo per te."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Ma è proprio questo il problema!  Io mi sforzo sempre, sempre per te, ma tu non te ne accorgi.  Sembra che io faccia tutto da sola."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Ma dai, Sofia!  Non dire sciocchezze.  Io ti ho regalato i fiori ieri, ti ho cucinato la cena, ho fatto la spesa... Cosa vuoi di più?"
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Sì, ma è sempre quello che faccio anche io, e non mi ringrazi mai.  Mi sento usata, sfruttata.  Nessuno apprezza mai quello che faccio."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Sofia, per favore, non iniziare di nuovo.  Io ti amo, lo sai.  Sei bellissima, intelligente, sei la donna della mia vita, ma devi smetterla di drammatizzare!"
+            },
+            {
+                "speaker": "Sofia",
+                "text": "È facile per te dirlo. Tu non provi quello che provo io.  Sembra che tutto il peso del mondo cada sulle mie spalle."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Tesoro, ti amo.  Facciamo qualcosa di bello stasera, per rilassarti.  Andiamo a cena fuori, e poi guardiamo un film?"
+            }
+        ]
+    },
+    {
+        "person_couple": "Dominante e Schiavo emotivo",
+        "name1": "Andrea",
+        "name2": "Sofia",
+        "dialogue": [
+            {
+                "speaker": "Andrea",
+                "text": "Sai, Sofia, quella tua amica mi dà sempre l'impressione di essere un po' troppo invadente. Dovresti limitare i vostri incontri."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Hai ragione, Andrea. Probabilmente dovresti aver ragione. Non ci penserò più a vederla."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Bene.  E poi, quell'abito che indossavi ieri?  Era davvero inappropriato.  Non ti sta bene."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Mi dispiace, Andrea. Non lo indosserò più. Non volevo dispiacerti."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Dovresti essere più attenta a come ti vesti.  La tua immagine riflette su di me."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Certo, Andrea.  Farò del mio meglio per essere all'altezza delle tue aspettative."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Ricordati di chiamarmi quando arrivi a casa. Non mi piace aspettare."
+            },
+            {
+                "speaker": "Sofia",
+                "text": "Certo, amore. Appena arrivo ti chiamo. Spero di non deluderti."
+            }
+        ]
+    },
+    {
+        "person_couple": "Narcisista e Succube",
+        "name1": "Marco",
+        "name2": "Aurora",
+        "dialogue": [
+            {
+                "speaker": "Marco",
+                "text": "Sai, Aurora, al lavoro tutti mi invidiano. Sono semplicemente brillante."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Sì, Marco, hai ragione. Sei il migliore, nessuno ti batte."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Certo, non tutti hanno la mia capacità di leadership e carisma.  Quell'idiota di Luca nemmeno si avvicina al mio livello."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Hai ragione, Marco. Luca è davvero...incompetente. Tu sei così superiore."
+            },
+            {
+                "speaker": "Marco",
+                "text": "La cena di stasera è stata un disastro,  ho dovuto praticamente fare tutto io. Non so come riesci a essere così goffa."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Mi dispiace, Marco.  Non volevo rovinare la serata.  Dovrei essere più attenta."
+            },
+            {
+                "speaker": "Marco",
+                "text": "Dovresti.  Davvero.  Cerca di migliorare, altrimenti sarai un peso per me."
+            },
+            {
+                "speaker": "Aurora",
+                "text": "Farò del mio meglio, Marco.  Prometto di fare meglio la prossima volta."
+            }
+        ]
+    },
+    {
+        "person_couple": "Controllore e Isolata",
+        "name1": "Andrea",
+        "name2": "Leonardo",
+        "dialogue": [
+            {
+                "speaker": "Andrea",
+                "text": "Dove sei stato tutto il pomeriggio? Non mi hai risposto al telefono e mi sono preoccupata.  Dovevi avvisarmi."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Ero al bar con Marco.  Non ho avuto il tempo di chiamarti."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Marco?  Di nuovo? Non mi piace che tu passi così tanto tempo con lui.  Potremmo fare qualcosa insieme, invece."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Andrea, non stai esagerando?  È solo un amico."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Amici che passano tutto il pomeriggio insieme... Sono gelosa, lo sai. Non vuoi passare del tempo con me?"
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Certo che lo voglio.  Ma non posso annullare tutti i miei programmi solo perché tu non mi senti per un paio d'ore."
+            },
+            {
+                "speaker": "Andrea",
+                "text": "Vedi?  Ecco cosa volevo sentire.  Preferisci i tuoi amici a me.  Sono sempre l'ultima ruota del carro."
+            },
+            {
+                "speaker": "Leonardo",
+                "text": "Non è vero.  Basta, Andrea. Sono stanco di questa discussione."
+            }
+        ]
+    },
+    {
+        "person_couple": "Persona violenta e Succube",
+        "name1": "Alessia",
+        "name2": "Matteo",
+        "dialogue": [
+            {
+                "speaker": "Matteo",
+                "text": "Dove diavolo eri? Ti ho chiamato dieci volte!"
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Mi dispiace, amore. Ho avuto un problema con la macchina e il telefono si è scaricato."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Non mentire, Alessia. So che eri con qualcun altro.  Dimmi la verità, o lo scoprirò da solo."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "No, giuro! Non ho visto nessuno.  Per favore, credimi."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Credimi?  Dovrei crederti?  Sei sempre in giro a flirtare con chiunque!  Dovresti essere grata che sono ancora con te."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Non lo farò più, te lo prometto. Non voglio perderti."
+            },
+            {
+                "speaker": "Matteo",
+                "text": "Speriamo che sia vero.  Stai attenta, Alessia.  Un'altra volta e non lo sopporterò."
+            },
+            {
+                "speaker": "Alessia",
+                "text": "Sì, amore.  Farò del mio meglio per accontentarti."
+            }
+        ]
+    }
+]
