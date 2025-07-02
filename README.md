@@ -1,57 +1,32 @@
 Cyber Intimate Partner Violence
 ==============================
-
-A short description of the project.
+Cyber Intimate Partner Violence (CIPV) represents a form of psychological abuse that unfolds through digital communication, often leaving no visible trace yet causing significant emotional harm. Detecting such toxicity early is critical for timely intervention and prevention. This study addresses the task of classifying digital partner conversations into ten nuanced categories of toxic relational dynamics. We approach this as a multi-label classification problem and evaluate two methods: a baseline logistic regression model with TF-IDF features, and a fine-tuned version of GilBERTo, a transformer-based Italian language model. While the baseline provides a reasonable foundation, the fine-tuned GilBERTo significantly outperforms it by capturing deep contextual signals within dialogue turns. Moreover, the transformer model supports the identification of the most toxic passage in each conversation, enabling deeper interpretability and insight into the progression of toxic behavior. Despite its strengths, challenges remain in detecting implicit toxicity and handling underrepresented patterns, pointing to future directions in data augmentation and new turns representations.
 
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+├── LICENSE
+├── README.md          <- The top-level README for developers using this project.
+├── requirements.txt   <- The requirements file for reproducing the analysis environment.
+├── setup.py           <- Makes project pip installable.
+├── cipv.ipynb         <- Main notebook and results. 
+├── data
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   ├── raw            <- The original, immutable data dump.
+│   └── util           <- Utility data files, templates.
+│ 
+└── src                <- Source code for use in this project.
+    ├── __init__.py    <- Makes src a Python module.
+    ├── data           <- Scripts for data processing.
+    │   ├── example_generation.py
+    │   ├── toxic_conversations.py
+    │   └── __init__.py
+    ├── features       <- Scripts to create features from raw data.
+    │   ├── text_inference.py
+    │   ├── visualization.py
+    │   └── __init__.py
+    └── models         <- Scripts to train and test models.
+        ├── baseline.py
+        ├── gilBERTo.py
+        └── __init__.py
+------------
