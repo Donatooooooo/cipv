@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 
-
 # Distribution / packaging
 .Python
 env/
@@ -21,6 +20,10 @@ var/
 .installed.cfg
 *.egg
 venv/
+.venv/
+models/downloaded
+models/finetuned/**
+!models/finetuned/readme.md
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -54,7 +57,6 @@ docs/_build/
 
 # PyBuilder
 target/
-
 
 # DotEnv configuration
 .env
