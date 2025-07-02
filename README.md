@@ -3,7 +3,7 @@ Cyber Intimate Partner Violence
 Cyber Intimate Partner Violence (CIPV) represents a form of psychological abuse that unfolds through digital communication, often leaving no visible trace yet causing significant emotional harm. Detecting such toxicity early is critical for timely intervention and prevention. This study addresses the task of classifying digital partner conversations into ten nuanced categories of toxic relational dynamics. We approach this as a multi-label classification problem and evaluate two methods: a baseline logistic regression model with TF-IDF features, and a fine-tuned version of GilBERTo, a transformer-based Italian language model. While the baseline provides a reasonable foundation, the fine-tuned GilBERTo significantly outperforms it by capturing deep contextual signals within dialogue turns. Moreover, the transformer model supports the identification of the most toxic passage in each conversation, enabling deeper interpretability and insight into the progression of toxic behavior. Despite its strengths, challenges remain in detecting implicit toxicity and handling underrepresented patterns, pointing to future directions in data augmentation and new turns representations.
 
 Project Organization
-------------
+```
 
 ├── LICENSE
 ├── README.md          <- The top-level README for developers using this project.
@@ -29,4 +29,4 @@ Project Organization
         ├── baseline.py
         ├── gilBERTo.py
         └── __init__.py
-------------
+```
